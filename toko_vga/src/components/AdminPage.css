@@ -1,0 +1,123 @@
+/* AdminPage.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #212121;
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #4caf50;
+    margin-top: 20px;
+  }
+  
+  button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  form {
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 600px;
+  }
+  
+  form input {
+    display: block;
+    width: calc(100% - 20px);
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  form button {
+    width: 100%;
+  }
+  
+  table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  table thead {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  table th, table td {
+    text-align: left;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  table img {
+    border-radius: 5px;
+  }
+  
+  table td button {
+    margin-right: 5px;
+  }
+  
+  table td button:first-child {
+    background-color: #2196f3;
+  }
+  
+  table td button:first-child:hover {
+    background-color: #1976d2;
+  }
+  
+  table td button:last-child {
+    background-color: #f44336;
+  }
+  
+  table td button:last-child:hover {
+    background-color: #d32f2f;
+  }
+  
+  span {
+    color: #757575;
+    font-style: italic;
+  }
+  
+  @media (max-width: 768px) {
+    form {
+      width: 95%;
+    }
+  
+    table {
+      width: 100%;
+      font-size: 14px;
+    }
+  
+    table img {
+      width: 80px;
+    }
+  }
+  
